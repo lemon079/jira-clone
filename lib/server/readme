@@ -1,0 +1,2 @@
+the name of files inside auth, member, and workspace is named queries.ts because they are queries that we are performing
+using appwrite sdk for backend (nodejs in our case).
