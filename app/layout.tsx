@@ -19,7 +19,10 @@ export default function RootLayout({
       <body>
         <Toaster />
         <NuqsAdapter>
-            <Providers>{children}</Providers>
+          <Providers>
+            <a href="/design.PNG" target='_blank' className='absolute bottom-5 left-3 text-white opacity-75 transition hover:opacity-100 text-sm text-center bg-black p-2 rounded-md'>Project Details</a>
+            {children}
+          </Providers>
         </NuqsAdapter>
       </body>
     </html>
